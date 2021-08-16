@@ -1,0 +1,21 @@
+
+#
+#IP Casa Juan 
+172.251.206.201
+#LAN
+192.168.1.0/24
+192.168.1.1==>admin:admin
+192.168.1.200==mail_server
+192.168.1.201 Ubunto Home
+
+
+
+
+
+Pendiendes 
+nano -c /etc/default/spamassassin
+cron=1 linea 33
+
+descomentar en nano -c /etc/crontab las siguientes lineas
+#30 23  * * *   root    doveadm expunge -A mailbox Junk savedbefore 30d
+#* *    * * *   root    doveadm search -A mailbox Junk savedbefore 22h >> /root/cron.log
