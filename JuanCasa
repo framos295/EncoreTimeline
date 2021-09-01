@@ -1,12 +1,16 @@
 
 #
 #IP Casa Juan 
-172.251.206.201
+#172.251.206.201
+Nueva IP
+23.242.120.40
+
 #LAN
 192.168.1.0/24
-192.168.1.1==>admin:admin
+192.168.1.1==>admin:admin (Desde app)
 192.168.1.200==mail_server
-192.168.1.201 Ubunto Home
+192.168.1.193:222 riverside (Debian 11)
+riverside.encoremsi.com==>23.242.120.40
 
 
 
